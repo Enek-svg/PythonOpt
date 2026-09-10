@@ -18,4 +18,9 @@ print(type(numero)) # <class 'int'>
 # bool : valores booleanos (True o False)
 # == : comparar valores
 # = : Asignar valor a una variable
-# 677
+
+nombre2 = input("Introduce tu nombre: ")
+print(nombre2)
+# Convertimos el valor introducido a un número entero
+edad = int(input("Introduce tu edad: ")) 
+print(edad)
