@@ -6,11 +6,10 @@ print("Estoy aprendiendo Python")
 
 nombre = "Eneko"
 numero = 1
-numero2 = "2"
+fecha_de_nacimiento = 1998 # Los _ ya que no se puede poner espacios en blanco en el nombre de la variable
+
 # Mostrar el tipo de dato de las variables (Cual es el tipo de dato que tiene la variable) ejemplos:
 print(type(numero)) # <class 'int'>
-print(type(numero2)) # <class 'str'>   
-
 
 # LISTA
 # str : cadenas de texto
