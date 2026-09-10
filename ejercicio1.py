@@ -6,10 +6,10 @@ print("Estoy aprendiendo Python")
 
 nombre = "Eneko"
 numero = 1
-numero2 = 2
+numero2 = "2"
 # Mostrar el tipo de dato de las variables (Cual es el tipo de dato que tiene la variable) ejemplos:
-print(type(numero))
-print(type(numero2))
+print(type(numero)) # <class 'int'>
+print(type(numero2)) # <class 'str'>   
 
 
 # LISTA
