@@ -6,8 +6,16 @@ print("Estoy aprendiendo Python")
 
 nombre = "Eneko"
 numero = 1
-numero_decimal = 1.5
+numero2 = 2
+# Mostrar el tipo de dato de las variables (Cual es el tipo de dato que tiene la variable) ejemplos:
+print(type(numero))
+print(type(numero2))
+
+
+
 # str : cadenas de texto
 # int : números enteros
 # float : números decimales
 # bool : valores booleanos (True o False)
+# == : comparar valores
+# = : Asignar valor a una variable
