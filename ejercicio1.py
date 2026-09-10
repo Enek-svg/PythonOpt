@@ -12,7 +12,7 @@ print(type(numero))
 print(type(numero2))
 
 
-
+# LISTA
 # str : cadenas de texto
 # int : números enteros
 # float : números decimales
