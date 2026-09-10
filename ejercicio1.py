@@ -19,3 +19,4 @@ print(type(numero2))
 # bool : valores booleanos (True o False)
 # == : comparar valores
 # = : Asignar valor a una variable
+# 677
