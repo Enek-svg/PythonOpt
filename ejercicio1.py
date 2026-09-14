@@ -24,3 +24,5 @@ print(nombre2)
 # Convertimos el valor introducido a un número entero
 edad = int(input("Introduce tu edad: ")) 
 print(edad)
+# Para que haya espacios
+print(f"Hola {nombre2}, tienes {edad} años.")
