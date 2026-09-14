@@ -33,7 +33,7 @@
 # print (2 + 2) # suma
 # print (2 - 2) # resta
 # print (2 * 2) # multiplicación
-# print (2 / 2) # división
+# print (2 / 2) # división y para division entera se usa // y con el // se redondea hacia abajo
 # print (9 % 2) # módulo (el resto de la división)
 # print (2 ** 3) # potencia (2 elevado a 3)
 
