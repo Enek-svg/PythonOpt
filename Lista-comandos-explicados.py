@@ -27,6 +27,17 @@
 # adentro de este print para que ponga esas variables en la pantalla, se pone el nombre de la variable y al principio coma, y si es un número entero o decimal al final tambien coma, y ademas se pone str() para que lo convierta a cadena de texto y lo pueda mostrar en pantalla.
 # ejemplo: print("Hola ",nombre, " tienes ", str(edad), " años") # las comas hacen que funcione como un espacio entre las palabras, si no se ponen las comas, se juntan todas las palabras y no se entiende nada.
 
+# OPERADORES ARITMÉTICOS
+# Son matematicas básicas que se pueden hacer con números, como sumar, restar, multiplicar, dividir, etc.
+
+# print (2 + 2) # suma
+# print (2 - 2) # resta
+# print (2 * 2) # multiplicación
+# print (2 / 2) # división
+# print (9 % 2) # módulo (el resto de la división)
+# print (2 ** 3) # potencia (2 elevado a 3)
+
+
 # OPERADORES COMPARATIVOS
 # Son operadores que comparan valores y devuelven un valor booleano (True o False)
 # print(4 < 8) # menor que
