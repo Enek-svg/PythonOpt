@@ -1,0 +1,18 @@
+numero1 = input("Ingrese el primer número: ")
+numero2 = input("Ingrese el segundo número: ")
+
+suma = int(numero1) + int(numero2)
+resta = int(numero1) - int(numero2)
+multiplicacion = int(numero1) * int(numero2)
+division = int(numero1) / int(numero2)
+divisionentera = int(numero1) // int(numero2)
+resto = int(numero1) % int(numero2)
+potencia = int(numero1) ** int(numero2)
+
+print(f"La suma es {suma}")
+print(f"La resta es {resta}")
+print(f"La multiplicacion es {multiplicacion}")
+print(f"La division es {division}")
+print(f"La division entera es {divisionentera}")
+print(f"El resto es {resto}")
+print(f"La potencia es {potencia}")
