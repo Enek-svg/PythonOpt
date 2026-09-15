@@ -37,6 +37,10 @@
 # print (9 % 2) # módulo (el resto de la división)
 # print (2 ** 3) # potencia (2 elevado a 3)
 
+# OPERACIONES MATEMATICAS CON STR
+# SUMA --> Concadenar ejemplo: "nombre" + "apellido" = "nombreapellido" (sin espacio)
+# RESTA --> Repetir ejemplo: "nombre" * 3 = "nombrenombrenombre" (repite el texto todas las veces que le digas)
+
 
 # OPERADORES COMPARATIVOS
 # Son operadores que comparan valores y devuelven un valor booleano (True o False)
