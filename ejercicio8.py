@@ -6,11 +6,25 @@ correo = input("Ingrese su correo electrónico: ")
 
 # Ejercicio 8. El programa pedirá: nombre, apellido, edad, ciudad y correo. Con esos datos debe mostrar una ficha ordenada, incluyendo un campo Usuario generado automáticamente: la primera letra del nombre + el apellido en minúsculas ejemplo: (Ane Gil → agil). 
 
+# EJERCICIO CORRECTO
+#print("=============================== \n CARNÉ DIGITAL \n===============================")
+#print("Nombre: " + nombre)
+#print("Apellido: " + apellido)
+#print("Edad: " + edad)
+#print("Ciudad: " + ciudad)
+#print("Correo electrónico: " + correo)
+#print("Usuario: " + nombre[0].lower() + apellido.lower())
+#print("===============================")
+
+# EJERCICIO + EXTRA DE CORREO ELECTRÓNICO
 print("=============================== \n CARNÉ DIGITAL \n===============================")
 print("Nombre: " + nombre)
 print("Apellido: " + apellido)
 print("Edad: " + edad)
 print("Ciudad: " + ciudad)
-print("Correo electrónico: " + correo)
+# Si no tiene outlook.com lo añada al print
+if "@outlook.com" not in correo:
+    correo += "@outlook.com" # Añade @outlook.com al correo si no lo tiene
+print("Correo electrónico: " + correo )
 print("Usuario: " + nombre[0].lower() + apellido.lower())
 print("===============================")
