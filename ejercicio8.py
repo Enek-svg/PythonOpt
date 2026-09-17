@@ -24,7 +24,7 @@ print("Edad: " + edad)
 print("Ciudad: " + ciudad)
 # Si no tiene outlook.com lo añada al print
 if "@outlook.com" not in correo:
-    correo += "@outlook.com" # Añade @outlook.com al correo si no lo tiene
+    correo = correo.split("@")[0] + "@outlook.com" # Si el correo no tiene outlook.com se borra todo lo de @ adelante y añade outlook.com
 print("Correo electrónico: " + correo )
 print("Usuario: " + nombre[0].lower() + apellido.lower())
 print("===============================")
