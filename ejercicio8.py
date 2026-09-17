@@ -20,7 +20,7 @@ correo = input("Ingrese su correo electrónico: ")
 print("=============================== \n CARNÉ DIGITAL \n===============================")
 print("Nombre: " + nombre)
 print("Apellido: " + apellido)
-print("Edad: " + edad)
+print("Edad: " + str(edad))
 print("Ciudad: " + ciudad)
 # Si no tiene outlook.com lo añada al print
 if "@outlook.com" not in correo:
