@@ -1,0 +1,5 @@
+nombreyapellido = input("Ingrese su nombre y apellido: ")
+print(nombreyapellido.upper()) 
+print(nombreyapellido.lower())
+print(len(nombreyapellido))
+print(nombreyapellido.title())

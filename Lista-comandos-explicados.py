@@ -70,3 +70,4 @@
 # print(nombre.strip()) # esto elimina los espacios al principio y al final del texto
 # print(nombre.replace("o", "a")) # esto reemplaza la letra o por la letra a
 # print(nombre.split()) # esto separa el texto en palabras y las pone en una lista
+# print(len(nombre)) # esto devuelve el número de caracteres (incluidos espacios)
