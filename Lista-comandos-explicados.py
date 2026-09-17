@@ -50,3 +50,13 @@
 # print(4 >= 8) # mayor o igual que
 # print(4 == 8) # igual que
 # print(4 != 8) # diferente que
+# = asignar
+# == comparar
+# ejemplo: print(5==5) # esto devuelve True ya que 5 es igual a 5
+# ejemplo: print(5!=7) # esto devuelve False ya que 5 no es igual a 7
+
+# SEPARAR MENSAJE
+# con /n haces que el mensaje se vaya a la siguiente linea
+
+# nombre ="Monica"
+# print(nombre[2]) # esto imprime lo que esta en la posicion 2 de la variable
