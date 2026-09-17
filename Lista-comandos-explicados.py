@@ -60,3 +60,13 @@
 
 # nombre ="Monica"
 # print(nombre[2]) # esto imprime lo que esta en la posicion 2 de la variable
+
+# COMANDOS DE STR PARA TEXTO DE VARIABLES
+# nombre="Monica"
+# print(nombre.upper()) # esto imprime el nombre en mayusculas
+# print(nombre.lower()) # esto imprime el nombre en minusculas
+# print(nombre.capitalize()) # esto imprime el nombre con la primera letra en mayuscula
+# print(nombre.title()) # esto imprime el nombre con la primera letra de cada palabra en mayuscula
+# print(nombre.strip()) # esto elimina los espacios al principio y al final del texto
+# print(nombre.replace("o", "a")) # esto reemplaza la letra o por la letra a
+# print(nombre.split()) # esto separa el texto en palabras y las pone en una lista
