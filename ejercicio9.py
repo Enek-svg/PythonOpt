@@ -1,16 +1,51 @@
-print("Hola soy Enek \n tengo 17 años y soy de Barakaldo")
-nombre = input("Introduce tu nombre: ")
-print("Hola", nombre, "Bienvenido")
+# (a) Muestra tu nombre
+print("Enek")
 
-numero1 = int(input("Introduce un número: "))
-numero2 = int(input("Introduce otro número: "))
-print("La suma de", numero1, "y", numero2, "es:", numero1 + numero2)
+# (b) Muestra tu edad y tu ciudad
+print("Edad: 17")
+print("Ciudad: Barakaldo")
 
-edad = int(input("Introduce tu edad ej(2008):"))
+# (c) Pide el nombre y saluda
+nombre = input("Dime tu nombre: ")
+print("Hola", nombre)
+
+# (d) Pide dos números y muestra su suma
+numero1 = int(input("Dime un número: "))
+numero2 = int(input("Dime otro número: "))
+print("La suma es:", numero1 + numero2)
+
+# (e) Pide el año de nacimiento y calcula la edad aproximada
+edad = int(input("¿En qué año naciste? "))
 edad2 = 2026 - edad
-print(edad2)
+print("Tienes aproximadamente", edad2, "años")
 
-print("este texto se pondra en grande".upper())
-letras = input("Dime una palabra: ")
-print("La primera letra de esa palabra es: " + letras[0])
+# (f) Escribe una frase y muéstrala en mayúsculas
+frase = input("Escribe una frase: ")
+print(frase.upper())
 
+# (g) Pide una palabra y muestra su primera letra, su última letra y su longitud
+palabra = input("Dime una palabra: ")
+print("Primera letra:", palabra[0])
+print("Última letra:", palabra[-1])
+print("Longitud:", len(palabra))
+
+# (h) Pide una frase y muestra cuántos caracteres tiene
+frase = input("Escribe una frase: ")
+print("Tiene", len(frase), "caracteres")
+
+# (i) Pide un número y muestra su cuadrado y su cubo
+numero = int(input("Dime un número: "))
+print("Cuadrado:", numero ** 2)
+print("Cubo:", numero ** 3)
+
+# (j) Pide un precio y un descuento, y calcula el precio final
+precio = float(input("Dime el precio: "))
+descuento = float(input("Dime el descuento (%): "))
+precio_final = precio - (precio * descuento / 100)
+print("Precio final:", precio_final)
+
+# (k) Convierte una cantidad de segundos en minutos y segundos
+segundos = int(input("Dime los segundos: "))
+minutos = segundos // 60
+resto = segundos % 60
+print(segundos, "segundos son", minutos, "minutos y", resto, "segundos")
