@@ -34,6 +34,8 @@ print("Longitud:", len(palabra))
 # (h) Pide una frase y muestra cuántos caracteres tiene
 frase = input("Escribe una frase: ")
 print("Tiene", len(frase), "caracteres")
+frasesin = frase.sprip()
+print("Tiene", len(frasesin), "caracteres sin espacios")
 
 # (i) Pide un número y muestra su cuadrado y su cubo
 numero = int(input("Dime un número: "))
