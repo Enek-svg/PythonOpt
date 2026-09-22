@@ -16,8 +16,10 @@ print("La suma es:", numero1 + numero2)
 
 # (e) Pide el año de nacimiento y calcula la edad aproximada
 edad = int(input("¿En qué año naciste? "))
+actual = int(input("¿En qué año estamos? "))
 edad2 = 2026 - edad
 print("Tienes aproximadamente", edad2, "años")
+print("Tienes aproximadamente", actual - edad, "años")
 
 # (f) Escribe una frase y muéstrala en mayúsculas
 frase = input("Escribe una frase: ")
