@@ -6,7 +6,7 @@ correo = input("Ingrese su correo electrónico: ")
 
 # Ejercicio 8. El programa pedirá: nombre, apellido, edad, ciudad y correo. Con esos datos debe mostrar una ficha ordenada, incluyendo un campo Usuario generado automáticamente: la primera letra del nombre + el apellido en minúsculas ejemplo: (Ane Gil → agil). 
 
-# EJERCICIO CORRECTO
+# EJERCICIO CORRECTO 
 print("=============================== \n CARNÉ DIGITAL \n===============================")
 print("Nombre: " + nombre)
 print("Apellido: " + apellido)
