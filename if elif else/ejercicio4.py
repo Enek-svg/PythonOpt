@@ -11,4 +11,4 @@ elif simbolo == "division" or simbolo=="Division":
 elif simbolo == "multiplicacion" or simbolo=="Multiplicacion":
     print("La multiplicacion es: ", numero1 * numero2)
 else:
-    print("Nada")
+    print("Vuelve a escribir la operación no encontrada.")
