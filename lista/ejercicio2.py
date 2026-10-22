@@ -1,13 +1,10 @@
-# Media de notas. Pide notas al usuario una a una (hasta que escriba -1), guárdalas en una lista y al final muestra: cuántas notas hay, 
-# la suma y la media. 
+# ¿Está en Bizkaia? Crea una lista de pueblos de Bizkaia. Pide al usuario un pueblo y dile si está o no en la lista.
 
-nota = float(input("Introduce una nota: "))
-lista= []
+lista = ["Bermeo", "Getxo", "Lekeitio", "Plentzia", "Ea", "Gorliz", "Mundaka", "Balmaseda", "Gernika", "Elantxobe"]
 
-while nota != -1:
-    nota = float(input("Introduce una nota: "))
-    lista.append(nota)
-print(lista)
+pueblo = input("Dime un pueblo: ")
 
-
-
+if pueblo in lista:
+    print("Esta en la lista")
+else:
+    print("No esta en la lista")
