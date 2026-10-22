@@ -37,8 +37,12 @@ print(lista)
 # d
 listaeliminar = ["Prueba1", "Prueba2", "Prueba3"]
 print("Lista original:", listaeliminar)
-listaeliminar.remove("Prueba2")
-print("Lista después de eliminar 'Prueba2':", listaeliminar)
+borrar = input("Dime que elemento quieres borrar: ")
+borrar = borrar.capitalize()
+listaeliminar.remove(borrar)
+print("Lista después de eliminar:", listaeliminar)
+
+print("-------------------")
 
 # e)
 listanombres = ["Ana", "Luis", "Marta"]
