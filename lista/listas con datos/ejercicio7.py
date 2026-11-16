@@ -1,0 +1,1 @@
+#  Inventario de una tienda. Gestiona el inventario de una tienda con un diccionario {producto: cantidad}. El programa muestra un menu en bucle
