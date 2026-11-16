@@ -29,5 +29,6 @@ departamentos = {
     "Analytics": "Asier"
 }
 
-departamentos["Marketing"] = "Alex".append()
+departamentos["Marketing"].append("Alex")
+# departamentos["Marketing"].inser(1, "Alex") Lo pone en el numero 1.
 print(departamentos["Marketing"])
