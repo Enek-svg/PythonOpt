@@ -17,7 +17,7 @@ while True:
         if producto in tienda:
             tienda[producto] = tienda[producto] + cantidad
         else:
-            tienda[producto] = cantidad
+            tienda[producto] =+ cantidad
     elif menu == "2":
         consultar = input("Que producto quieres consultar? ")
         if consultar in tienda:
